@@ -1,0 +1,183 @@
+
+#myApi{
+    background-color: rgb(59, 233, 175);
+    nav{
+        margin-top: 50px;
+        padding: 30px;
+        background-color: rgb(59, 233, 175);
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        h2{
+            background-color: rgb(59, 233, 175);
+            color: white;
+        }
+        #backBtn{
+            margin-left: 20px;
+            height: 30px;
+            width: 50px;
+            background-color: white;
+
+
+        }
+    }
+    #myList{
+        margin-top: 30px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        li{
+            list-style-type: none;
+            width: 200px;
+            height: 150px;
+            color: white;
+            margin: 30px;
+            h4{
+                font-size: 20px;
+                border-bottom: solid 1px white;
+            }
+            .popup{
+                color: red;
+            }
+
+        }
+    }
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color:  rgb(59, 233, 175); */
+}
+//style myLogin
+    #back{   
+        height:100vh;
+        background: linear-gradient(90deg, rgb(59, 233, 175) 40%, white 40%);
+        #mainbox{
+            position: relative;
+            top: 50px;
+            box-shadow: rgb(60, 139, 100) 0px 0px 50px 3px ;
+            margin: auto;
+            /* margin-top: 50px; */
+            width: 50%;
+            height: 80%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            #leftbox{
+                height: 100%;
+                width: 30%;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-items: center;
+                #marca{
+                    height: fit-content;
+                    width: fit-content;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    align-items: center;
+                    h4{
+                        margin-bottom: 15px;
+                        margin-top: 9px;
+                        font-size: 17px;
+                        font-weight: bold;
+                        font-style: italic;
+                    }
+                    img{
+                        width: 50px;
+                    }
+                }
+                #india{
+                    font-size: 12px;
+                    width: 130px;
+                    height: fit-content;
+                    font-weight: bold;
+                }
+            }
+            #rightbox{
+                background-color: white;
+                width: 70%;
+                height: 100%;
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+                justify-content: center;
+                form{
+                    background-color: white;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    align-items: center;
+                    h4{
+                        font-size: 15px;
+                        font-weight: bold;
+                        margin-bottom: 30px;
+                        background-color: white;
+                    }
+                    label{
+                        font-size: 12px;
+                        margin-bottom: 3px;
+                        font-weight: bold;
+                        background-color: white;
+                        align-self: flex-start;
+                    }
+                    #email, #pass{
+                        padding: 10px;
+                        font-size: 12px;
+                        font-weight: bold;
+                        background-color: white;
+                        width: 240px;
+                        height: 30px;
+                        border: solid 0.5px lightgray;
+                    }
+                    input::placeholder{
+                        color: lightgray;
+                        font-weight: 200;
+                    }
+                    #forgot{
+                        text-decoration: none;
+                        color: black;
+
+                        background-color: white;
+                        align-self: flex-end;
+                        font-size: 11px;
+                        font-weight: bold;
+                    }
+                    #btnLogin{
+                        background-color:  rgb(59, 233, 175);
+                        margin-top: 40px;
+                        border-radius: 3%;
+                        border: none;
+                        font-size: 12px;
+                        font-weight: bold;
+                        width: 240px;
+                        height: 30px;
+                    }
+
+                }
+                #help{
+                    background-color: white;
+                    width: fit-content;
+                    height: fit-content;
+                    align-self: flex-end;
+                    position: relative;
+                    bottom: 120px;
+                    right: 28px;
+                    font-size: 9px;
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+    #myapi{
+        margin-top: 300px;
+        color: red;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+

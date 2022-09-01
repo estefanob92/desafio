@@ -1,0 +1,195 @@
+#myApi {
+  background-color: rgb(59, 233, 175);
+}
+#myApi nav {
+  margin-top: 50px;
+  padding: 30px;
+  background-color: rgb(59, 233, 175);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+#myApi nav h2 {
+  background-color: rgb(59, 233, 175);
+  color: white;
+}
+#myApi nav #backBtn {
+  margin-left: 20px;
+  height: 30px;
+  width: 50px;
+  background-color: white;
+}
+#myApi #myList {
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+#myApi #myList li {
+  list-style-type: none;
+  width: 200px;
+  height: 150px;
+  color: white;
+  margin: 30px;
+}
+#myApi #myList li h4 {
+  font-size: 20px;
+  border-bottom: solid 1px white;
+}
+#myApi #myList li .popup {
+  color: red;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color:  rgb(59, 233, 175); */
+}
+
+#back {
+  height: 100vh;
+  background: linear-gradient(90deg, rgb(59, 233, 175) 40%, white 40%);
+}
+#back #mainbox {
+  position: relative;
+  top: 50px;
+  box-shadow: rgb(60, 139, 100) 0px 0px 50px 3px;
+  margin: auto;
+  /* margin-top: 50px; */
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+#back #mainbox #leftbox {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+#back #mainbox #leftbox #marca {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#back #mainbox #leftbox #marca h4 {
+  margin-bottom: 15px;
+  margin-top: 9px;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: italic;
+}
+#back #mainbox #leftbox #marca img {
+  width: 50px;
+}
+#back #mainbox #leftbox #india {
+  font-size: 12px;
+  width: 130px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-weight: bold;
+}
+#back #mainbox #rightbox {
+  background-color: white;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+#back #mainbox #rightbox form {
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#back #mainbox #rightbox form h4 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  background-color: white;
+}
+#back #mainbox #rightbox form label {
+  font-size: 12px;
+  margin-bottom: 3px;
+  font-weight: bold;
+  background-color: white;
+  align-self: flex-start;
+}
+#back #mainbox #rightbox form #email, #back #mainbox #rightbox form #pass {
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: white;
+  width: 240px;
+  height: 30px;
+  border: solid 0.5px lightgray;
+}
+#back #mainbox #rightbox form input::-moz-placeholder {
+  color: lightgray;
+  font-weight: 200;
+}
+#back #mainbox #rightbox form input:-ms-input-placeholder {
+  color: lightgray;
+  font-weight: 200;
+}
+#back #mainbox #rightbox form input::placeholder {
+  color: lightgray;
+  font-weight: 200;
+}
+#back #mainbox #rightbox form #forgot {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  align-self: flex-end;
+  font-size: 11px;
+  font-weight: bold;
+}
+#back #mainbox #rightbox form #btnLogin {
+  background-color: rgb(59, 233, 175);
+  margin-top: 40px;
+  border-radius: 3%;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  width: 240px;
+  height: 30px;
+}
+#back #mainbox #rightbox #help {
+  background-color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  align-self: flex-end;
+  position: relative;
+  bottom: 120px;
+  right: 28px;
+  font-size: 9px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+#myapi {
+  margin-top: 300px;
+  color: red;
+  display: flex;
+  flex-flow: row nowrap;
+}/*# sourceMappingURL=style.css.map */
