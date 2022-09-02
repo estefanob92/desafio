@@ -60,7 +60,7 @@ function myLogin(){
                     <img src={MyImage} alt="icon" />
                     <h4>CleanMyCar</h4>
                 </div>
-                <div id='india'>India's first waterless car cleaning  company</div>
+                <div id='india'>India's first waterless car cleaning company</div>
             </div>
             <div id='rightbox'>
                 <a href="#" id='help'>Need help?</a>
@@ -89,9 +89,6 @@ function myApi(){
   </div>
 
 }
-
-
-
 
 
 root.render(
