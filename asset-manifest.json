@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/desafio/static/css/main.044d9089.css",
-    "main.js": "/desafio/static/js/main.64279bb4.js",
+    "main.js": "/desafio/static/js/main.b0acdd05.js",
     "static/media/tire-icon.png": "/desafio/static/media/tire-icon.f0542f004ba70356b1fc.png",
     "index.html": "/desafio/index.html",
     "main.044d9089.css.map": "/desafio/static/css/main.044d9089.css.map",
-    "main.64279bb4.js.map": "/desafio/static/js/main.64279bb4.js.map"
+    "main.b0acdd05.js.map": "/desafio/static/js/main.b0acdd05.js.map"
   },
   "entrypoints": [
     "static/css/main.044d9089.css",
-    "static/js/main.64279bb4.js"
+    "static/js/main.b0acdd05.js"
   ]
 }
