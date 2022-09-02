@@ -34,21 +34,23 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
           })
 
           //modal con detalles
-          let btnDetalles = document.getElementById(`detalle${post.id}`);
+           let btnDetalles = document.getElementById(`detalle${post.id}`);
           
           btnDetalles.addEventListener("click",() =>{
             console.log(`clickeaste ver detalle ${li.id}`);
 
             const popup = document.createElement('div');
-            popup.setAttribute('id',`detalle${post.id}`);
-            popup.classList.add("popup");
-            li.innerHTML =`
+            //id al popup
+            popup.id=`popup${post.id}`;
+            //clase al popup
+            popup.className="popup";
+            popup.innerHTML =`
               <h4>${post.title}</h4>
               <div>${post.body}</div>
-              <div>boton cerrar</div>
+              
               `
-          li.append(popup)
-          })
+          document.getElementById('myApi').append(popup);
+          }) 
       })
     })
 
@@ -89,7 +91,6 @@ function myApi(){
   </div>
 
 }
-
 
 root.render(
   <div id='myRoot'>

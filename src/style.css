@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color:  rgb(59, 233, 175); */
+}
+
 #myApi {
   background-color: rgb(59, 233, 175);
 }
@@ -38,15 +45,13 @@
   font-size: 20px;
   border-bottom: solid 1px white;
 }
-#myApi #myList li .popup {
+#myApi .popup {
   color: red;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  /* background-color:  rgb(59, 233, 175); */
+  background-color: darkgrey;
+  width: 400px;
+  height: 300px;
+  position: fixed;
+  z-index: 2;
 }
 
 #back {
@@ -187,9 +192,9 @@
   color: black;
 }
 
-#myapi {
-  margin-top: 300px;
-  color: red;
-  display: flex;
-  flex-flow: row nowrap;
-}/*# sourceMappingURL=style.css.map */
+/*     #myapi{
+        margin-top: 300px;
+        color: red;
+        display: flex;
+        flex-flow: row nowrap;
+    } *//*# sourceMappingURL=style.css.map */

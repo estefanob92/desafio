@@ -1,4 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color:  rgb(59, 233, 175); */
+}
 
+//style myApi
 #myApi{
     background-color: rgb(59, 233, 175);
     nav{
@@ -38,20 +45,19 @@
                 font-size: 20px;
                 border-bottom: solid 1px white;
             }
-            .popup{
-                color: red;
-            }
-
         }
+    }
+    .popup{
+        color: red;
+        background-color: darkgrey;
+        width: 400px;
+        height: 300px;
+        position: fixed;
+        z-index: 2;
+    
     }
 }
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    /* background-color:  rgb(59, 233, 175); */
-}
 //style myLogin
     #back{   
         height:100vh;
@@ -174,10 +180,11 @@
             }
         }
     }
-    #myapi{
+
+/*     #myapi{
         margin-top: 300px;
         color: red;
         display: flex;
         flex-flow: row nowrap;
-    }
+    } */
 
