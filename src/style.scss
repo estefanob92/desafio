@@ -2,11 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
     /* background-color:  rgb(59, 233, 175); */
 }
 
 //style myApi
-#myApi{
+/* #myApi{
     background-color: rgb(59, 233, 175);
     nav{
         margin-top: 50px;
@@ -57,7 +58,7 @@
     
     }
 }
-
+ */
 //style myLogin
     #back{   
         height:100vh;
@@ -180,11 +181,38 @@
             }
         }
     }
-
-/*     #myapi{
-        margin-top: 300px;
-        color: red;
+//style MyApi
+    #MyApi{
+        background-color: rgb(59, 233, 175);
         display: flex;
-        flex-flow: row nowrap;
-    } */
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        nav{
+            font-size: 40px;
+            margin-top: 40px;
+            margin-bottom: 30px;
+            text-align: center;
+            display: block;
+            width: 100vw;
+        }
+        .liInfoApi{
+            margin: 20px;
+            width: 250px;
+            height: 160px;
+            list-style: none;
+            button{
+                background-color: white;
+                width: 70px;
+                height: 30px;
+                margin: 5px;
+                color: black;
+                font-size: 13px;
+                border-radius: 0%;
+                border: none;
+
+            }
+        }
+    }
+
 

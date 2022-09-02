@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 
 
 
-function MyModal({title}) {
+function MyModal({title, bodyp}) {
 
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -13,14 +13,14 @@ function MyModal({title}) {
   return (
     <>
       <Button variant="primary" onClick={handleShow}>
-        Ver detalles
+        Más
       </Button> 
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title> title </Modal.Title>
+          <Modal.Title> {title} </Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+        <Modal.Body> {bodyp} </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close

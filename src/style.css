@@ -5,55 +5,58 @@
   /* background-color:  rgb(59, 233, 175); */
 }
 
-#myApi {
-  background-color: rgb(59, 233, 175);
-}
-#myApi nav {
-  margin-top: 50px;
-  padding: 30px;
-  background-color: rgb(59, 233, 175);
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: center;
-}
-#myApi nav h2 {
-  background-color: rgb(59, 233, 175);
-  color: white;
-}
-#myApi nav #backBtn {
-  margin-left: 20px;
-  height: 30px;
-  width: 50px;
-  background-color: white;
-}
-#myApi #myList {
-  margin-top: 30px;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-}
-#myApi #myList li {
-  list-style-type: none;
-  width: 200px;
-  height: 150px;
-  color: white;
-  margin: 30px;
-}
-#myApi #myList li h4 {
-  font-size: 20px;
-  border-bottom: solid 1px white;
-}
-#myApi .popup {
-  color: red;
-  background-color: darkgrey;
-  width: 400px;
-  height: 300px;
-  position: fixed;
-  z-index: 2;
-}
+/* #myApi{
+    background-color: rgb(59, 233, 175);
+    nav{
+        margin-top: 50px;
+        padding: 30px;
+        background-color: rgb(59, 233, 175);
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        h2{
+            background-color: rgb(59, 233, 175);
+            color: white;
+        }
+        #backBtn{
+            margin-left: 20px;
+            height: 30px;
+            width: 50px;
+            background-color: white;
 
+
+        }
+    }
+    #myList{
+        margin-top: 30px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        li{
+            list-style-type: none;
+            width: 200px;
+            height: 150px;
+            color: white;
+            margin: 30px;
+            h4{
+                font-size: 20px;
+                border-bottom: solid 1px white;
+            }
+        }
+    }
+    .popup{
+        color: red;
+        background-color: darkgrey;
+        width: 400px;
+        height: 300px;
+        position: fixed;
+        z-index: 2;
+
+    }
+}
+ */
 #back {
   height: 100vh;
   background: linear-gradient(90deg, rgb(59, 233, 175) 40%, white 40%);
@@ -192,9 +195,34 @@
   color: black;
 }
 
-/*     #myapi{
-        margin-top: 300px;
-        color: red;
-        display: flex;
-        flex-flow: row nowrap;
-    } *//*# sourceMappingURL=style.css.map */
+#MyApi {
+  background-color: rgb(59, 233, 175);
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+#MyApi nav {
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: block;
+  width: 100vw;
+}
+#MyApi .liInfoApi {
+  margin: 20px;
+  width: 250px;
+  height: 160px;
+  list-style: none;
+}
+#MyApi .liInfoApi button {
+  background-color: white;
+  width: 70px;
+  height: 30px;
+  margin: 5px;
+  color: black;
+  font-size: 13px;
+  border-radius: 0%;
+  border: none;
+}/*# sourceMappingURL=style.css.map */

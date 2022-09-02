@@ -12,13 +12,13 @@ function MyApi(){
  }, []);
   
  return (
-   <div>
+   <div id='MyApi'>
+      <nav>Bienvenido!</nav>
+
       {list.map(post => 
                     <li className='liInfoApi'  id={"li"+post.id} key={post.id}>
-                        <h4>{post.title}</h4>
-                         {/* <Button id={post.id}>Ver detalles</Button> 
-                         <Modal>Aca</Modal>  */}
-                         <MyModal  />
+                        <h5>{post.title}</h5>
+                        <MyModal title={post.title} bodyp={post.body} />
                         <Elim id={post.id}/>
                     </li>)}
     </div>
