@@ -7,7 +7,7 @@ import MyImage from './tire-icon.png';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
-const myfetch = fetch('https://jsonplaceholder.typicode.com/posts')
+ fetch('https://jsonplaceholder.typicode.com/posts')
     .then((response)=> response.json())
     .then((data)=> {
 
