@@ -63,14 +63,14 @@ function myLogin(){
                 <div id='india'>India's first waterless car cleaning company</div>
             </div>
             <div id='rightbox'>
-                <a href="#" id='help'>Need help?</a>
+                <a href="#/" id='help'>Need help?</a>
                 <form>
                     <h4>Log in</h4>
                     <label for="email">Email</label>
                     <input type="email" name="" id="email" placeholder="joe@email.com"/>
                     <label for="password">Password</label>
                     <input type="password" name="" id="pass" placeholder="Enter your password"/>
-                    <a href="#" id='forgot'>forgot password?</a>
+                    <a href="#/" id='forgot'>forgot password?</a>
                     <input id='btnLogin' type="submit" value="Login"/>
                 </form>
             </div>
