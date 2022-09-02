@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 
 
 
-function MyModal({title, bodyp}) {
+function MyModal({title, id}) {
 
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -20,7 +20,7 @@ function MyModal({title, bodyp}) {
         <Modal.Header closeButton>
           <Modal.Title> {title} </Modal.Title>
         </Modal.Header>
-        <Modal.Body> {bodyp} </Modal.Body>
+        <Modal.Body> Este es el post número {id} </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close

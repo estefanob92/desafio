@@ -1,7 +1,7 @@
 import React from 'react';
 import MyModal from './MyModal';
 import Elim from './Elim';
-import {useEffect, useState, useRef} from 'react';
+import {useEffect, useState} from 'react';
 
 function MyApi(){
  const [list, setList] = useState([]);
@@ -18,7 +18,7 @@ function MyApi(){
       {list.map(post => 
                     <li className='liInfoApi'  id={"li"+post.id} key={post.id}>
                         <h5>{post.title}</h5>
-                        <MyModal title={post.title} bodyp={post.body} />
+                        <MyModal title={post.title} id={post.id} />
                         <Elim id={post.id}/>
                     </li>)}
     </div>
