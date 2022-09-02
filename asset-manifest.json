@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/desafio/static/css/main.8630e4e5.css",
+    "main.js": "/desafio/static/js/main.3fe85d0e.js",
+    "static/media/tire-icon.png": "/desafio/static/media/tire-icon.f0542f004ba70356b1fc.png",
+    "index.html": "/desafio/index.html",
+    "main.8630e4e5.css.map": "/desafio/static/css/main.8630e4e5.css.map",
+    "main.3fe85d0e.js.map": "/desafio/static/js/main.3fe85d0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8630e4e5.css",
+    "static/js/main.3fe85d0e.js"
+  ]
+}
